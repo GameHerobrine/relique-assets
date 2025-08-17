@@ -1,10 +1,36 @@
-added this §4evil§f and §4malicious thing
-free & cliff
-nya uwu
-test
-very §4 long text test &5 very §4 long text test  &5 very §4 long text test  &5 very §4 long text test  &5 very §4 long text test  &5 very §4 long text test
-
-emptyline
-
-
-test
+Added AutoSign
+Added ChunkBorders
+Added AntiInfInteract
+Added HideCoordsOnScreenshot
+Added BetterChatControls (ctrl+c/ctrl+v/some other keybinds/chat scrolling, enabled by default)
+Added NegativeItemColors
+Added Strafe
+Added Space Theme for ClickGUI
+Added SnapYaw for DirectionLock
+Added RotateCamera for NewAutoTunnel (enabled by default)
+Added tunnelwalker mode for PacketSpeed
+Added ability to change x/z offsets when using tunnelwalker
+Added abillity to change vertical velocity multiplier for Fly
+Added ability to customize HUD Rainbow3 colors
+Fixed some hud settings not saving
+Fixed (old) AutoTunnel not working with slot9
+Fixed AutoTool crashing the game when UseAllInv is enabled and slot9 is used
+Fixed killaura not targetting ghasts(mob) and squids(animal)
+ClickGUI was completely rewritten
+Schematica optimizations (from MaybeAClient)
+Fixed HideChat hiding what record is currently being played
+Fixed Coords tab not displaying enchantile1 decor properly when rescaled
+fixed Radar tab not being affected by the scale setting
+Removed some unused commands (.autobreakid, .list, .clear, .flood, .console)
+Removed .nopush, .nowater, .pesp, .stepheight, .lock, .step
+Merged .commands(alias commands list), .rms (alias remastered/relique commands list) into .help
+Added ability to use commands in singleplayer
+Added .igui (open item gui - works only in singleplayer & alpha)
+Added .clickgui (open clickgui)
+Added .resethud (reset hud element positions)
+Added .resetcgui (reset clickgui tabs)
+Small changes to .x, .y, .z and .teleport commands
+Added java 1.5 support (useless)
+Added Change log gui
+changed default login prompt to "&cPlease login with" (used on 2beta)
++ more stuff i forgot about it
