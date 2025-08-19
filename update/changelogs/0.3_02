@@ -1,0 +1,9 @@
+Added IgnoreServerRotation
+Added IgnoreOnGroundState and IgnoreInWaterState for SpeedMine
+Added ability to scroll HUD Settings tabs
+Fixed NegativeItemColor affecting all items
+Fixed Strafe sometimes autowalking after disabling NewAutoTunnel
+Fixed NewAutoTunnel's FullSmartAutoWalk not stopping when blocks are ahead
+Fixed NewAutoTunnel breaking blocks far away from player first when using InstantSigle or Legal mining mode and OnlyRoad SmartAutoWalk
+Small changes to ClientSideChunkGen to hopefully make it work better
+Optimized Liquid rendering when using Xray
