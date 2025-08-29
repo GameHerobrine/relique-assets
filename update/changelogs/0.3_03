@@ -1,0 +1,18 @@
+Added CustomHandPosition
+Added mode selector for hideChat
+Added delay option for AutoEat
+Added ability to set health after which autoeat should be triggered
+Added option to set gui scale for each individual hud tab
+Added scale, Show armor and Show held item options for Nametags
+Better EntityESP rendering
+Better Nametags rendering
+Removed extra space in the message sent by OnToggleMessage
+Changed Nodus theme to display total amount of modules in the header
+Changed command messages style
+Changed default hud style to use normal gui scale and 1.0 (gl)scale
+Fixed .ppos not working without additional argument
+Fixed EntityESP not working on ghasts
+Fixed enchantile decor working incorrectly on coords tab when bottom corner is selected
+Fixed rainbow3 not working on enchantile decor of clientname hud tab
+Fixed draggable hud gui not working properly if opened from clickgui
+Fixed HUD help tab rendering
