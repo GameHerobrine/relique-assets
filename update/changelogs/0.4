@@ -1,0 +1,163 @@
+§9 - General -
+Added baritone backport(backport of 1.11.1 for mc r1.21.3)
+Added Zan's Minimap(backport from r1.4.7, with some custom modifications)
+Added HD Textures support
+Added ability to change texturepack ingame
+Added ability to view schematica stats
+Added mapart generator
+Added confirmation gui when deleting account or server from the list
+Added credits button into the main menu
+Added proxy manager
+Moved schematica keybindings from options into Schematica module settings
+Added ability to control some schematica rendering settings
+Added descriptions for modules and some settings
+§9 - Options -
+Added whiteaura option for killaura(enabled by default)
+Added vignette into NoRender
+Added NoCheat bypass for Sneak
+Added terrain past 32m into NoRender
+Added ShaderOutline mode for EntityESP
+Added Fill mode for EntityESP
+Added color setting for Breadcrumbs
+Added color setting for each individual entity category in EntityESP
+Added color setting for each individual block in BlockESP
+Added Reach distance slider for Reach hack
+Moved Block selectors from ClickGUI into module settings
+Added color picker for color settings
+Removed Chests, Spawners and Furnaces from BlockESP options
+Added ability to bind modules to mouse keys
+Added HideRadar and HideWaypoints for HideCoordsOnScreenshot(both are enabled by default)
+Added ability to change world name when using WorldDL
+Added WaitForServerTp for PacketSpeed
+Added VelocityBuildup mode for PacketSpeed
+Added DisplayText for Tracers (disabled by default)
+Added Color and Width settings for Tracers
+Added Walking mode for TunnelWalker
+Added SmoothLight for FullBright (enabled by default)
+Added SwitchBack for AutoTool (enabled by default)
+Added VerticalSpeedMultiplier and HorizontalSpeedMultiplier for NewFreeCam
+Added WatchTNT for AutoDisconnect (disabled by default)
+Added IgnoreLiquids for Fly (enabled by default)
+Added AllowAnyDimension for BedAura (disabled by default)
+Added DelayMode and Bypass for Blink
+Replaced most subsettings with normal settings
+Replaced Particles in NoRender with Explosion Particles, Mining Particles and Other Particles
+Removed Packet10 NoFall mode(it was identical to OnGround)
+Removed Exp. Vanilla Kick Delay for Fly
+Removed Speed Multiplier for Strafe(use MoveDistanceCustomizer to customize it globally)
+Added Disconnect NoFall mode
+Added Speed Multiplier for FastFly
+Added ability to enable/disable hover effect for every theme(enabled by default for all)
+Added CacheBreakAndPlacePackets for Blink(disabled by default)
+Replaced Anni Radius with RadiusHorizontal, ReachUp and ReachDown
+Added Always Cancel Packet for XCarry (disabled by default)
+Added SwitchToBestItem for KillAura (enabled by default)
+Added extra options for every module
+Added Reset Options button for every module(in extra options)
+Added Activation mode for every module(in extra options)
+Added Show in ArrayList for every module(in extra options)
+Added Show in Keybindings for every module(in extra options)
+§9 - Module Changes -
+Added MiddleClickFriend
+Added Zoom
+Added Anti32M
+Added NoFriendHit
+Added FireExtiguisher
+Added WeatherLock
+Added UnsafeLightLevels
+Added NoClientSideDestroy
+Added SafeWalk
+Added AntiChunkUnload
+Added Tooltips
+Added NoPortalSounds
+Added FastFall
+Added SleepWalk
+Added AFKDisconnect
+Added CharSelector
+Added Trajectories
+Added AutoSapling
+Added ClimbGappedLadder
+Added CustomSky
+Added SlimeChunksRadar
+Added ChatMessageDelay
+Added Greeter
+Added Announcer
+Added MessageStyler
+Added AutoBonemeal
+Added ItemNametags
+Added FastCraft
+Added AutoShear
+Added AutoFish
+Added PacketMine
+Added ExtendedHotbar
+Added FullChunkLoad
+Added NoEntityRenderDistanceLimit
+Added CustomBiomeColor
+Added SelfHit
+Added MoveDistanceCustomizer
+Added AutoTimeOffsetSearcher
+Added ClickGUIOpenButtonHack
+Added ItemGUI (existed before, but not as a module and couldn't be rebinded)
+Added Minimap, Waypoints, Waypoints GUI, Open Map, Schematica
+Removed PathfinderWalker (replaced with Baritone)
+Removed LockHealth (useless)
+Replaced NoclipThirdPerson with ThirdPersonTweaks
+Replaced Coords with PlayerInfo
+Replaced DropESP with an option in EntityESP
+Replaced HideWeather with an option in NoRender
+Reworked TunnelWalker
+Various changes to NewAutoTunnel
+Changed ChatLog save directory to Relique/chatlogs/
+Changed ChatLog filenames from chatLog-<timestamp>.txt to chatLog-<yyyy-mm-dd hh:mm:ss:ms>.txt
+Changed ChatLog message entry to [<yyyy-mm-dd hh:mm:ss:ms>] <message>
+Changed OldFreecam to not activate NoClip and Fly
+Better AutoTool
+Better Scaffold
+Better Tracers line rendering
+Better Build
+Better NewChunks
+Better NewFreeCam
+Better AimBot
+Better Stafe(takes into account actual speed now: no need to disable in water or when sneaking)
+Added ctrl+left/right arrow keybind(move cursor to the end of the current word) for BetterChatControls
+§9 - UI -
+Added search bar into ClickGui
+Added ability to create custom categories
+Module tabs are now scrollable
+Cursor will change when navigating clickgui (if supported)
+Added BPS and Packet10/Second counter into PlayerInfo (disabled by default)
+§9 - Commands -
+Added .spamleftmsg command
+Added .sendlastmovpk command
+Added .disconnect command
+Added .setmapscale command (sp only)
+Added .ibuild command (sp only)
+Added .updatesign command
+Added command suggestions(use UPARROW/DOWNARROW to select suggestion and TAB to use it)
+Added ability to set .swastika size, filler and main symbols
+Added ability to manage modules and their settings using commands(.set/.toggle/.reset)
+Added ability to send messages starting from command prefixes(. and #) by placing a space before them
+Added ability to use relative positions(~10, ~-10) for .tp command
+§9 - Different tweaks -
+Added TileEntity frustrum checking to prevent rendering tileentities that cannot be seen by player
+Moved version selector from main menu into add server menu/direct connect menu
+Added ability to lock fps on specific value instead of 40/120/unlim(performance setting)
+Added ability to hide perormance graph from F3 screen
+Removed 3D Anaglyph from settings because of its removal in one of the previous updates
+Removed keybindings for 2 of the schematica guis(they can be accessed from the main one)
+hacks.dat uses gzip compression now
+Added items with different meta into ItemGUI
+Added exit without updatesign packet into sign gui
+Block restoration will always happen after 4 seconds(not affected by clkspeed)
+Server timeout will always happen after 60 seconds(not affected by clkspeed, + in reality it will happen after 30s because of socket timeout)
+§9 - Fixes -
+Fixed small rendering problems when nametags and third person is enabled
+Better OutlineESP for dropped items that render as 2D sprite
+Fixed inability to open schematica guis when TimeLock is enabled
+Fixed NoClip, Jesus, PacketSpeed affecting other entities
+Fixed broken initial rotation when IgnoreServerRotation is enabled
+Fixed Chat GUI when sleeping
+Fixed weird schematica change detection
+Fixed sign text not being shown correctly in schematicas
+Fixed clouds norender affecting hotbar sometimes
+Fixed memory leak in ClickGUI
