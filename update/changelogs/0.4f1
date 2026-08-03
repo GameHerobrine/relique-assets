@@ -1,0 +1,9 @@
+Fixed FastFall affecting Fly and OldFreeCam
+Fixed player continuing to move if clickgui was opened while the player was moving and had inventory opened
+Fixed Map<> setting loading in baritone
+Fixed waypoint loading adding waypoint entity as normal entity instead of as weather effect
+Fixed block breaking in protocol 8(b1.2) and below
+Splitted b1.1_02 and b1.2 into two different versions due to differences in protocol
+Added baritone setting descriptions when viewing them through #set command
+Removed freeLook and blockFreeLook settins for baritone due to them not working correctly
+Removed Multiversion button from main menu because it is unused
