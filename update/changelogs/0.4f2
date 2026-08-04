@@ -1,0 +1,11 @@
+Added NoSlowdown
+Added GuiDrop
+Added .seed command
+Added SignStealer for AutoSign (disabled by default)
+Added Show New Chunks for Minimap HUD element (enabled by default)
+Added Display id and damage for ItemNametags (disabled by default)
+Merged NoWater into NoSlowdown (as NoLiquids)
+Changed default category sorting from None to A-Z
+Better memory management for fullscreen map
+Better prefix for Blink
+Fixed searchbar not appearing after upgrade from 0.3 to 0.4
