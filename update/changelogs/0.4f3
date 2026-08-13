@@ -1,0 +1,8 @@
+Added fixed step for killaura radius
+Readded Use Version Textures into options
+Removed redstone ore from activeable blocks
+Fixed WorldDL not using timestamp as time for default name
+Fixed mining not being reset when the player stops mining(protocol 8 and below)
+Fixed autotool causing blocks to not break sometimes(most noticeable in protocol 8 and below)
+Fixed setting tabs not moving to the top after clicking parent tab
+Fixed infinite creation of subsubsetting tabs when activating some settings
