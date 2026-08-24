@@ -1,0 +1,8 @@
+Added search bar into alt manager
+Added Quads to Triangles into Video Settings(enabled by default, disable to fix GL4ES rendering issues if playing on mobile)
+Added schematica frustrum culling
+Added ModLoaderFix for Modloader(activated only if the original method fails)
+Fixed schematica selection rendering being affected by jittering
+Fixed inability to unload schematica after it was loaded
+Fixed fly being affected by sneaking
+Fixed crash when clicking Use button when no proxy was selected
