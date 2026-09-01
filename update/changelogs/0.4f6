@@ -1,0 +1,6 @@
+Added Break Passable Blocks for NewAutoTunnel(disabled by default)
+Fixed baritone not being able to extinguish fire
+Fixed incorrect player direction detection in baritone's #tunnel
+Fixed baritone not walking through signs
+Fixed setting tabs not getting removed when the parent element is no longer visible on the screen
+Fixed exception always being thrown when ModLoader is resolving jar path
