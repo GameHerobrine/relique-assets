@@ -1,0 +1,4 @@
+Added continueOnReconnect(disabled by default), waitAfterReconnectS settings for Baritone
+Renamed FastPlace to FastUse
+xRay's Opacity setting wont be shown unless using Opacity mode
+Moved Relique update checking to be executed right after the game started
