@@ -1,0 +1,1 @@
+Fixed Baritone's continueOnReconnect not working if some gui is opened
