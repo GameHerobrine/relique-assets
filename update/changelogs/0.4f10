@@ -1,0 +1,6 @@
+Added Water Overlay, Fire Overlay, Pumpkin Overlay for NoRender (all disabled by default)
+Fixed Iridium theme Block Selector not showing the state of the block
+Fixed using commands while in bed crashing client
+Fixed WorldDL textbox crashing the client when no name is set
+Fixed WorldDL crashing the game if it failed to begin
+Fixed waypoint hide/show button being invisible
