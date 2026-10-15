@@ -1,0 +1,12 @@
+Added AntiCactus
+Added NoHurtcam
+Added NoEntityPush and NoBlockPush for NoPush (both enabled by default)
+Added LayerPlaceOrder for Scaffold
+Fixed Minimap's Scale setting not working
+Fixed Scaffold not being able to place signs and cake
+Fixed clientside chunks not rendering after generation
+Fixed inability to add waypoints if Create Waypoints GUI was opened through ClickGUI
+Fixed Killaura not attacking slimes
+Fixed some strings in minimap guis not being translated
+Small changes to button locations on waypoints list screen
+Small changes to placement distance calculation for scaffold
