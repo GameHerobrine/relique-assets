@@ -1,0 +1,8 @@
+Added ClientSidePlace for Scaffold (enabled by default)
+Added BlockTracers
+Fixed AutoEat not sending switch slot packet after eating food
+Fixed ChatLog not working on Windows
+Fixed ChatLog using incorrect timestamp
+Added Y position display for minimap
+Fixed blocks at max Y level displaying incorrectly on minimap
+Various ClickGUI fixes
