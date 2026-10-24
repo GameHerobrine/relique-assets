@@ -1,0 +1,7 @@
+Better SchematicaBuilder
+Fixed incorrect coordinates displaying in the minimap menu
+Fixed crash when typing certain commands
+Fixed #sel using player's y position instead of camera's
+Fixed Baritone's builder sometimes not breaking blocks
+Fixed Killaura not attacking entities in singleplayer
+Hopefully fixed baritone's builder placing blocks in incorrect places sometimes
