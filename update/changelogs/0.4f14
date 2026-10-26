@@ -1,0 +1,9 @@
+Added Keybindings for Schematica Next/Prev Layer
+Added StrictAir for Schematica 
+Added HighlightThroughBlocks for Schematica
+Added Save Position/Restore Position buttons for Schematica
+Added ability to place double slabs using single slabs for schematicabuilder
+Fixed SchematicaBuilder not synchronizing items when ClientSidePlace is disabled
+Better xRay 
+Better state visibility in block selector for some blocks(like lava or water)
+Added step sound fix
