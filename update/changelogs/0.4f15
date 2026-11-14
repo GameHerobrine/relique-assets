@@ -1,0 +1,3 @@
+Fixed old relique data loader not removing original file after renaming it on windows
+Fixed Edit button being active when None proxy is selected
+Fixed incorrect door metadata after schematic rotation
